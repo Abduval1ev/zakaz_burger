@@ -8,9 +8,14 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      spacing: {
+        container: 'clamp(10px, 5%, 75px)',
+      },
+      maxWidth: {
+        'screen-1920': '1920px',
+      },
+      minWidth: {
+        screen: '320px',
       },
     },
   },
